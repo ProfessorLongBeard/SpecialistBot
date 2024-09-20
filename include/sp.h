@@ -9,6 +9,7 @@
 #include <concord/discord.h>
 
 #include <events/on_ready.h>
+#include <events/on_sigint.h>
 
 
 
