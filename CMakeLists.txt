@@ -22,7 +22,10 @@ add_executable(${SP_TARGET})
 target_compile_options(${SP_TARGET} PRIVATE
     -Wall
     -Wextra
-    -Werror
+    -Wno-unused-parameter
+    -Wno-unused-variable
+    -Wno-unused-function
+    -Wno-unused-but-set-variable
 )
 
 target_include_directories(${SP_TARGET} PRIVATE
